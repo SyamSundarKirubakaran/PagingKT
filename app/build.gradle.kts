@@ -16,6 +16,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
+        // this api key is disabled - no stealing
         buildConfigField("String", "API_KEY", "\"47ea50d7ece7e74f25725d5937da4586\"")
     }
 
